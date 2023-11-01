@@ -1,0 +1,85 @@
+/* center the main body */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+/* using flexbox, center the rules button */
+#rulesButton{
+  display: flex;
+  justify-content: center
+}
+/* box containing styles for the rules para, initially invisible */
+.box{
+  display: none;
+  font-size: 1.5rem;
+}
+/* a class when added, makes the div invisible */
+.visibility{
+  display: inline-block;
+}
+/* centering text of dice div */
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+/* styling the list of rules paragraph */
+ul{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  list-style: none;
+  color: white;
+}
+/* applying gradient to body */
+body {
+  background-image: linear-gradient(to bottom right,#0802A3,#FF4B91,#FF7676,#FFCD4B);
+}
+/* heading style */
+h1 {
+  margin: 30px;
+  font-family: 'Merriweather', serif;  text-shadow: 0 0 5px gold;
+  font-size: 6rem;
+  color: white;
+}
+/* player names */
+p {
+  font-size: 2rem;
+  color: white;  
+  font-family: 'Libre Baskerville', serif;
+}
+/* image of dice */
+img {
+  width: 80%;
+}
+/* styling the container with button to roll dice */
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+/* roll dice button */
+.btn{
+  margin: 20px;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  filter: drop-shadow(0px 5px 5px black);
+  background-color: #0802A3;
+  border: none;
+  color: white;
+  border-radius: 5%; 
+}
+/* a div containing contact options */
+.contact{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+/* styling footer */
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
